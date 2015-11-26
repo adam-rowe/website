@@ -30,7 +30,8 @@ font-family:georgia;
 	width:200px;
 	height:200px;
 	position:relative;top:140px; left: 120px;
-	background:green;
+	border-radius: 50px 50px 50px 50px;
+	background:#2a416f;
 	text-align:center;
 }
 
@@ -38,7 +39,8 @@ font-family:georgia;
 	width:200px;
 	height:200px;
 	position:relative;top: -80px; left: 370px;
-	background:white;
+	border-radius: 50px 50px 50px 50px;
+	background:#2a416f;
 	text-align:center;
 }
 
@@ -46,8 +48,9 @@ font-family:georgia;
 	width:200px;
 	height:200px;
 	position:relative;top: -300px; left: 620px;
-	background:orange;
-	text-align:center;	
+	border-radius: 50px 50px 50px 50px;
+	background:#2a416f;
+	text-align:center;
 }
 
 #footer{
@@ -58,7 +61,6 @@ font-family:georgia;
 	border-radius: 0px 0px 50px 50px;
     padding: 0px; 
 	text-align:center;
-
 }
 
 #wrapper1{
@@ -87,7 +89,6 @@ font-family:georgia;
 	width:245px;
 	height:250px;
 	position:relative;top: 40px; left: 100px;
-	background:;	
 }
 
 #aboutMe{
@@ -142,42 +143,42 @@ font-family:georgia;
 	background:;	
 }
 
-
 #form{
 	width:500px;
-	height:375px;
+	height:300px;
 	position:relative;top: 40px; left:225px;	
 	text-align:center;
-	border:soild;
+	background-color: #F0F0F0;
+	border: 5px solid #666666;
 }
 
 #facebook{
 	width:100px;
 	height:100px;
-	position:relative;top: -50px; left:125px;
+	position:relative;top: 50px; left:125px;
 }
 
 #github{
 	width:100px;
 	height:100px;
-	position:relative;top: -150px; left:325px;
+	position:relative;top: -50px; left:325px;
 }
 
 #twitter{
 	width:100px;
 	height:100px;
-	position:relative;top: -250px; left:525px;
+	position:relative;top: -150px; left:525px;
 }
 
 #linkedin{
 	width:100px;
 	height:100px;
-	position:relative;top: -350px; left:725px;	
+	position:relative;top: -250px; left:725px;	
 }
 
 #nav{
 	direction: rtl;
-	font-size:20px;
+	font-size:25px;
 	font-family:georgia;
 }
 
@@ -190,4 +191,8 @@ h1{
 h2{
 	text-decoration:underline;
 	
+}
+
+a{
+	color:white;
 }
